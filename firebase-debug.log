@@ -1,0 +1,44 @@
+[debug] [2023-03-18T19:43:45.712Z] ----------------------------------------------------------------------
+[debug] [2023-03-18T19:43:45.713Z] Command:       /usr/local/bin/node /usr/local/bin/firebase init
+[debug] [2023-03-18T19:43:45.714Z] CLI Version:   11.24.1
+[debug] [2023-03-18T19:43:45.714Z] Platform:      darwin
+[debug] [2023-03-18T19:43:45.714Z] Node Version:  v16.13.0
+[debug] [2023-03-18T19:43:45.714Z] Time:          Sat Mar 18 2023 22:43:45 GMT+0300 (Arabian Standard Time)
+[debug] [2023-03-18T19:43:45.715Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2023-03-18T19:43:45.796Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2023-03-18T19:43:45.796Z] > authorizing via signed-in user (rooodha.mjnonh@gmail.com)
+[info] 
+     ######## #### ########  ######## ########     ###     ######  ########
+     ##        ##  ##     ## ##       ##     ##  ##   ##  ##       ##
+     ######    ##  ########  ######   ########  #########  ######  ######
+     ##        ##  ##    ##  ##       ##     ## ##     ##       ## ##
+     ##       #### ##     ## ######## ########  ##     ##  ######  ########
+
+You're about to initialize a Firebase project in this directory:
+
+  /Users/raghadbajahlan/Desktop/elSources
+
+Before we get started, keep in mind:
+
+  * You are initializing within an existing Firebase project directory
+
+[info] 
+=== Project Setup
+[info] 
+[info] First, let's associate this project directory with a Firebase project.
+[info] You can create multiple project aliases by running firebase use --add, 
+[info] but for now we'll just set up a default project.
+[info] 
+[debug] [2023-03-18T19:43:55.632Z] Using project from CLI flag: resorses-68b4e
+[debug] [2023-03-18T19:43:55.634Z] >>> [apiv2][query] GET https://firebase.googleapis.com/v1beta1/projects/resorses-68b4e [none]
+[debug] [2023-03-18T19:43:56.307Z] <<< [apiv2][status] GET https://firebase.googleapis.com/v1beta1/projects/resorses-68b4e 200
+[debug] [2023-03-18T19:43:56.307Z] <<< [apiv2][body] GET https://firebase.googleapis.com/v1beta1/projects/resorses-68b4e {"projectId":"resorses-68b4e","projectNumber":"411167821573","displayName":"resorses","name":"projects/resorses-68b4e","resources":{"hostingSite":"resorses-68b4e","realtimeDatabaseInstance":"resorses-68b4e-default-rtdb","storageBucket":"resorses-68b4e.appspot.com","locationId":"us-central"},"state":"ACTIVE","etag":"1_a7e03dab-eb09-4972-a586-4083e1a2c473"}
+[info] i  Using project resorses-68b4e (resorses) 
+[info] 
+=== Hosting Setup
+[info] 
+[info] Your public directory is the folder (relative to your project directory) that
+[info] will contain Hosting assets to be uploaded with firebase deploy. If you
+[info] have a build process for your assets, use your build's output directory.
+[info] 
